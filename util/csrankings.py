@@ -95,6 +95,11 @@ areadict: Dict[Area, List[Conference]] = {
         Conference("PACMPL"),
         Conference("Proc. ACM Program. Lang."),
     ],  # Special PACMPL handling below
+    Area("cgo"): [Conference("CGO")],
+    Area("cc"): [Conference("CC")],
+    Area("ecoop"): [Conference("ECOOP")],
+    Area("pepm"): [Conference("PEPM")],
+    Area("paste"): [Conference("PASTE")],
     # SIGSOFT
     Area("icse"): [Conference("ICSE"), Conference("ICSE (1)")],
     Area("fse"): [Conference("SIGSOFT FSE"), Conference("ESEC/SIGSOFT FSE")],
@@ -247,10 +252,10 @@ areadict: Dict[Area, List[Conference]] = {
         Conference("EMNLP/IJCNLP (1)"),
     ],
     Area("acl"): [
-        Conference("ACL"), 
-        Conference("ACL (1)"), 
-        Conference("ACL (2)"), 
-        Conference("ACL/IJCNLP"), 
+        Conference("ACL"),
+        Conference("ACL (1)"),
+        Conference("ACL (2)"),
+        Conference("ACL/IJCNLP"),
         Conference("ACL/IJCNLP (1)"),
         Conference("ACL/IJCNLP (2)"),
         Conference("COLING-ACL")

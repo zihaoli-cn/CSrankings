@@ -268,6 +268,7 @@ class CSRankings {
             'pldi': 'plan',
             'oopsla': 'plan', // next tier 
             'icfp': 'plan',   // next tier
+            'cgo' : 'plan',
             'fse': 'soft',
             'icse': 'soft',
             'ase': 'soft',    // next tier
@@ -385,6 +386,7 @@ class CSRankings {
         { area: "popl", title: "PL" },
         { area: "icfp", title: "PL" },   // next tier
         { area: "oopsla", title: "PL" }, // next tier
+        { area: "cgo", title: "PL" }, // next tier
         { area: "plan", title: "PL" },
         { area: "soft", title: "SE" },
         { area: "fse", title: "SE" },
