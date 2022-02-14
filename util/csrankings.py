@@ -100,6 +100,14 @@ areadict: Dict[Area, List[Conference]] = {
     Area("ecoop"): [Conference("ECOOP")],
     Area("pepm"): [Conference("PEPM")],
     Area("paste"): [Conference("PASTE")],
+    Area("toplas"): [
+        Conference("TOPLAS"),
+        Conference("ACM Trans. Program. Lang. Syst."),
+    ],
+    Area("taco"): [
+        Conference("TACO"),
+        Conference("ACM Trans. Archit. Code Optim."),
+    ],
     # SIGSOFT
     Area("icse"): [Conference("ICSE"), Conference("ICSE (1)")],
     Area("fse"): [Conference("SIGSOFT FSE"), Conference("ESEC/SIGSOFT FSE")],

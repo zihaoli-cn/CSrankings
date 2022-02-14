@@ -49,7 +49,7 @@ with open(filename, "r") as f:
     datastore = json.load(f)
 
 # Change this to use other conferences. Note that if they aren't indexed by CSrankings, they won't appear.
-confdict = {"PLDI", "CGO", "CC", "ECOOP", "PEPM", "PASTE", "POPL", "ICFP", "OOPSLA", "ISCA", "MICRO", "ASPLOS"}
+confdict = {"PLDI", "CGO", "CC", "TOPLAS", "TACO", "PACMPL", "ECOOP", "PEPM", "PASTE", "POPL", "ICFP", "OOPSLA", "ISCA", "MICRO", "ASPLOS"}
 conflist = list(confdict)
 conflist.sort()
 

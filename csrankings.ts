@@ -273,6 +273,9 @@ class CSRankings {
             'ecoop' : 'plan',
             'pepm' : 'plan',
             'paste' : 'plan',
+            'taco' : 'plan',
+            'toplas' : 'plan',
+            'pacmpl' : 'plan',
             'fse': 'soft',
             'icse': 'soft',
             'ase': 'soft',    // next tier
@@ -391,6 +394,13 @@ class CSRankings {
         { area: "icfp", title: "PL" },   // next tier
         { area: "oopsla", title: "PL" }, // next tier
         { area: "cgo", title: "PL" }, // next tier
+        { area: "cc", title: "PL" },
+        { area: "ecoop", title: "PL" },
+        { area: "pepm", title: "PL" },
+        { area: "paste", title: "PL" },
+        { area: "pacmpl", title: "PL" },
+        { area: "taplas", title: "PL" },
+        { area: "taco", title: "PL" },
         { area: "plan", title: "PL" },
         { area: "soft", title: "SE" },
         { area: "fse", title: "SE" },
