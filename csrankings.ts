@@ -269,6 +269,10 @@ class CSRankings {
             'oopsla': 'plan', // next tier 
             'icfp': 'plan',   // next tier
             'cgo' : 'plan',
+            'cc' : 'plan',
+            'ecoop' : 'plan',
+            'pepm' : 'plan',
+            'paste' : 'plan',
             'fse': 'soft',
             'icse': 'soft',
             'ase': 'soft',    // next tier
