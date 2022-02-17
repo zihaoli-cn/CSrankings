@@ -237,6 +237,7 @@ class CSRankings {
             'isca': 'arch',
             'micro': 'arch',
             'hpca': 'arch', // next tier
+            'codesisss': 'arch', // next tier
             'ccs': 'sec',
             'oakland': 'sec',
             'usenixsec': 'sec',
@@ -269,10 +270,13 @@ class CSRankings {
             'oopsla': 'plan', // next tier 
             'icfp': 'plan',   // next tier
             'cgo' : 'plan',
+            'pact' : 'plan',
             'cc' : 'plan',
+            'lctes' : 'plan',
             'ecoop' : 'plan',
             'pepm' : 'plan',
             'paste' : 'plan',
+            'cases' : 'plan',
             'taco' : 'plan',
             'toplas' : 'plan',
             'pacmpl' : 'plan',
@@ -312,6 +316,7 @@ class CSRankings {
             'icde': true,
             'pods': true,
             'hpca': true,
+            'codesisss': true,
             'ndss': true, // for now
             'pets': true,
             'eurosys': true,
@@ -358,6 +363,7 @@ class CSRankings {
         { area: "isca", title: "Arch" },
         { area: "micro", title: "Arch" },
         { area: "hpca", title: "Arch" },
+        { area: "codesisss", title: "Arch" },
         { area: "comm", title: "Networks" },
         { area: "sigcomm", title: "Networks" },
         { area: "nsdi", title: "Networks" },
@@ -394,10 +400,13 @@ class CSRankings {
         { area: "icfp", title: "PL" },   // next tier
         { area: "oopsla", title: "PL" }, // next tier
         { area: "cgo", title: "PL" }, // next tier
+        { area: "pact", title: "PL" }, // next tier
         { area: "cc", title: "PL" },
+        { area: "lctes", title: "PL" },
         { area: "ecoop", title: "PL" },
         { area: "pepm", title: "PL" },
         { area: "paste", title: "PL" },
+        { area: "cases", title: "PL" },
         { area: "pacmpl", title: "PL" },
         { area: "taplas", title: "PL" },
         { area: "taco", title: "PL" },
