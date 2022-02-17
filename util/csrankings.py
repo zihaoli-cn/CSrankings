@@ -196,6 +196,7 @@ areadict: Dict[Area, List[Conference]] = {
     Area("isca"): [Conference("ISCA")],
     Area("micro"): [Conference("MICRO")],
     Area("hpca"): [Conference("HPCA")],  # next tier
+    Area("ppopp"): [Conference("PPoPP")],  # next tier
     Area("codesisss"): [Conference("CODES+ISSS")],  # next tier
     # SIGLOG
     # 'log': ['CAV', 'CAV (1)', 'CAV (2)', 'LICS', 'CSL-LICS'],

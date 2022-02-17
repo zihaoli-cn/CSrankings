@@ -56,6 +56,7 @@ areaList = [
     {"area": "arch", "title": "Arch", "color": syscolor},
     {"area": "asplos", "title": "Arch", "color": syscolor},
     {"area": "hpca", "title": "Arch", "color": syscolor},
+    {"area": "ppopp", "title": "Arch", "color": syscolor},
     {"area": "codesisss", "title": "Arch", "color": syscolor},
     {"area": "isca", "title": "Arch", "color": syscolor},
     {"area": "micro", "title": "Arch", "color": syscolor},

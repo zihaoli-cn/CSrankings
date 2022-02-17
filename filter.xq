@@ -131,6 +131,7 @@
 //inproceedings[booktitle="ISCA"],
 //inproceedings[booktitle="MICRO"],
 //inproceedings[booktitle="HPCA"],
+//inproceedings[booktitle="PPoPP"],
 //inproceedings[booktitle="CODES+ISSS"],
 //inproceedings[booktitle="ASPLOS"],
 //inproceedings[booktitle="VLDB"],

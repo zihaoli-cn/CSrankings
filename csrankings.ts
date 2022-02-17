@@ -237,6 +237,7 @@ class CSRankings {
             'isca': 'arch',
             'micro': 'arch',
             'hpca': 'arch', // next tier
+            'ppopp': 'arch',
             'codesisss': 'arch', // next tier
             'ccs': 'sec',
             'oakland': 'sec',
@@ -363,6 +364,7 @@ class CSRankings {
         { area: "isca", title: "Arch" },
         { area: "micro", title: "Arch" },
         { area: "hpca", title: "Arch" },
+        { area: "ppopp", title: "Arch" },
         { area: "codesisss", title: "Arch" },
         { area: "comm", title: "Networks" },
         { area: "sigcomm", title: "Networks" },
